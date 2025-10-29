@@ -1,5 +1,8 @@
 package GenralPracties;
+
 import java.util.HashSet;
+import java.util.Iterator;
+
 public class practies2 {
 
     public static void main(String[] args) {
@@ -14,5 +17,16 @@ public class practies2 {
 
         System.out.println(hs);
 
+        Iterator it=  hs.iterator();
+
+        while(it.hasNext()){
+            System.out.println(it.next());
+            int n = (int) it.next();
+            if(n%2==0){
+                System.out.println(it.next());
+            }
+        }
+
     }
+
 }
