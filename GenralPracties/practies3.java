@@ -1,0 +1,45 @@
+package GenralPracties;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Comparator;
+import java.util.Queue;
+
+import static java.util.Comparator.comparingInt;
+
+import java.util.*;
+public class practies3 {
+
+    static class Edge{
+
+    }
+    public static void bfs(ArrayList<Edge>[]graph){
+        Queue<Integer>q=new LinkedList<>();
+
+        boolean vis[]=new boolean[5];
+
+        q.add(0);
+
+        while(!q.isEmpty()){
+
+            int curr=q.remove();
+
+            if(!vis[curr]){
+                System.out.println(curr+" ");
+
+                vis[curr]=true;
+
+                for(int i=0;i<graph[curr].size();i++){
+                    Edge e=graph[curr].get(i);
+                    //q.add(e.dest);
+                }
+            }
+        }
+
+    }
+
+    public static void main(String[] args) {
+
+        // BFS
+    }
+}
