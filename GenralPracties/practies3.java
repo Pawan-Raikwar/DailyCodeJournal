@@ -40,6 +40,28 @@ public class practies3 {
 
     public static void main(String[] args) {
 
-        // BFS
+        Queue<String>queue=new LinkedList<>();
+
+        System.out.println("Queue operations");
+
+        queue.add("Apple");
+        queue.add("Banana");
+        queue.add("Cherray");
+        queue.add("Pawan Raikwar");
+
+        System.out.println(queue);
+
+        queue.offer("Rhiiss");
+        System.out.println(queue);
+
+        queue.remove();
+        System.out.println(queue);
+        System.out.println(queue.isEmpty());
+        System.out.println(queue.contains("Applle"));
+        System.out.println(queue.peek());
+        System.out.println(queue);
+        System.out.println(queue.poll());
+        queue.clear();
+        System.out.println(queue    );
     }
 }
