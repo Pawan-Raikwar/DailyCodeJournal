@@ -13,6 +13,8 @@ public class BFS {
             this.dest=d;
         }
     }
+
+    //BFS(Breath First Search)
     public static void bfs(ArrayList<Edge>[]graph){
         Queue<Integer> q=new LinkedList<>();
 
@@ -30,6 +32,20 @@ public class BFS {
                     Edge e=graph[curr].get(i);
                     q.add(e.dest);
                 }
+            }
+        }
+    }
+
+    // (Deapth First Search)
+    public static void dfs(ArrayList<Edge>[]graph,int curr,boolean vis[]){
+        // visit
+        System.out.println(curr+" ");
+        vis[curr]=true;
+
+        for(int i=0;i<graph[curr].size();i++){
+            Edge e=graph[curr].get(i);
+            if(!vis[curr]){
+                dfs(graph,e.dest,vis);
             }
         }
     }
