@@ -27,6 +27,27 @@ public class practies2 {
             }
         }
 
+
+        System.out.println("This is the the for the just push");
+
     }
+
+    /*
+
+    for(map.Entry<Integer,String>entry : map.entrySet()){
+     entry.getKey();
+     entry.getValue();
+
+     }
+
+    for(map.Entry<Integer,String>entry:map.entrySet()){
+      entry.getKey();
+      entry.getValue();
+
+
+     */
+
+
+
 
 }
