@@ -29,6 +29,7 @@ public class practies2 {
 
 
         System.out.println("This is the the for the just push");
+        System.out.println("THis is the the for the just push");
 
     }
 
