@@ -13,6 +13,7 @@ public class ClimbingStairs {
             dp[i]=dp[i-1]+dp[i-2];
         }
         System.out.println("The ans is "+dp[n]);
-        System.out.println("this ");
+        System.out.println("this "  );
+        System.out.println("THIS IS NOT USED");
     }
 }
