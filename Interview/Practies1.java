@@ -26,7 +26,7 @@ public class Practies1 {
     }
     public static void main(String[] args) {
         int nums[]={0,1,1,1,2,2,3};
-        System.out.println("THis is the practies and push");
+        System.out.println("THis is the practies and pushhhhhddd");
         System.out.println(MergeSortedArray(nums));
     }
 }
